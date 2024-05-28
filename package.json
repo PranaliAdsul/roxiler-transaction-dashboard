@@ -41,7 +41,6 @@
     ]
   },
   "devDependencies": {
-    "eslint-loader": "^4.0.2",
     "eslint-plugin-react-refresh": "^0.4.7"
   }
 }
