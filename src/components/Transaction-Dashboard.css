@@ -1,0 +1,81 @@
+/* Transaction-Dashboard.css */
+
+/* Overall layout styles */
+.layout-header {
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.content {
+  padding: 20px;
+}
+
+/* Filters card styles */
+.filters-card {
+  margin-bottom: 20px;
+}
+
+/* Select dropdown styles */
+.ant-select-selection {
+  width: 100%;
+}
+
+/* Input styles */
+.ant-input {
+  width: 100%;
+}
+
+/* Search and Clear button styles */
+.search-button,
+.clear-button {
+  margin-left: 8px;
+}
+
+/* Pagination styles */
+.pagination {
+  margin-top: 16px;
+  text-align: center;
+}
+
+/* Transaction Details card styles */
+.transaction-details-card {
+  margin-bottom: 20px;
+}
+
+/* Monthly Sales Data card styles */
+.monthly-sales-card {
+  margin-bottom: 20px;
+}
+
+/* Price Range Distribution card styles */
+.price-range-card {
+  margin-bottom: 20px;
+}
+
+/* Button hover effect */
+.ant-btn-primary:hover,
+.ant-btn:hover {
+  background-color: #1890ff;
+  border-color: #1890ff;
+  color: #fff;
+}
+
+/* Table styles */
+.ant-table {
+  margin-bottom: 16px;
+}
+
+/* Transaction image styles */
+.transaction-image {
+  max-width: 100px;
+  max-height: 50px;
+}
+
+/* Bar chart styles */
+.bar-chart {
+  margin-bottom: 16px;
+}
+.ant-col .ant-col-20 .css-dev-only-do-not-override-17seli4 {
+  padding-left: 300px; 
+  padding-right: 60px;
+}
