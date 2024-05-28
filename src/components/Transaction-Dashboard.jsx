@@ -15,7 +15,7 @@ const TransactionDashboard = () => {
   const [searchText, setSearchText] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
   const [data, setData] = useState({});
-  const [chartData, setChartData] = useState(null);
+  const [chartData, setChartData] = useState(null); 
 
   const fetchData = useCallback(async () => {
     try {
