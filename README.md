@@ -1,12 +1,13 @@
-vercel deployed link :- "https://roxiler-transaction-dashboard-lxovhtra7-pranaliadsuls-projects.vercel.app/"
+vercel deployed link :- 
+"https://roxiler-transaction-dashboard-r3lw7nun6-pranaliadsuls-projects.vercel.app/"
 
  Mock Api for Entire Data:-
 "https://665345f5813d78e6d6d7ca04.mockapi.io/api/dashboard/DashBoardData"
 
- Mock Api for Monthly Sale Data 
+ Mock Api for Monthly Sale Data:- 
 "https://66532705813d78e6d6d75f24.mockapi.io/api/DashBoardData"
 
- Mock Api for Bar Chart Data
+ Mock Api for Bar Chart Data:-
 "https://66532705813d78e6d6d75f24.mockapi.io/api/MonthData"
 
 # Roxiler-Transaction Dashboard Assignment
