@@ -145,7 +145,7 @@ const TransactionDashboard = () => {
           <Col xs={24} sm={24} md={18} lg={18} xl={18}>
             <Card title="Filters" bordered={true} className="filters-card">
               <Row gutter={[16, 16]} align="middle">
-                <Col span={8}>
+                 <Col xs={24} sm={12} md={8}>
                   <Select
                     value={selectedMonth}
                     onChange={handleMonthChange}
@@ -165,31 +165,31 @@ const TransactionDashboard = () => {
                     <Option value="December">December</Option>
                   </Select>
                 </Col>
-                <Col span={8} style={{ display: 'flex', justifyContent: 'flex-end' }}>
-  <Input
-    placeholder="Search transaction..."
-    value={searchText}
-    onChange={(e) => setSearchText(e.target.value)}
-    style={{ width: 'calc(100% - 32px)', padding: "4px 143px;",  marginRight: '4px' }} // Adjust width to leave space for buttons
-  />
-  <Button type="primary" onClick={handleSearch} style={{ marginRight: '4px' }}>
-    <SearchOutlined /> Search
-  </Button>
-  <Button onClick={clearSearch} style={{ marginRight: '-330px' }}>
-    <CloseCircleOutlined /> Clear
-  </Button>
-</Col>
+                <Col xs={24} sm={12} md={16} style={{ display: 'flex', justifyContent: 'flex-end' }}>
+            <Input
+                    placeholder="Search transaction..."
+                    value={searchText}
+                    onChange={(e) => setSearchText(e.target.value)}
+                    style={{ width: '70%', marginRight: '4px' }}
+                  />
+                  <Button type="primary" onClick={handleSearch} style={{ marginRight: '4px' }}>
+                    <SearchOutlined /> Search
+                  </Button>
+                  <Button onClick={clearSearch}>
+                    <CloseCircleOutlined /> Clear
+                  </Button>
+            </Col>
               </Row>
             </Card>
           </Col>
-          <Col>
-          <Card title="Transaction Details" bordered={true} className="details-card" style={{ height: '300px' }}>
+          <Col xs={24} sm={24} md={24} lg={24} xl={24}>
+            <Card title="Transaction Details" bordered={true} className="details-card">
               <Table
                 columns={columns}
                 dataSource={transactions}
                 pagination={false}
                 rowKey="id"
-                scroll={{ y: 115 }}
+                scroll={{ y: 200 }}
               />
               <Pagination
                 current={currentPage}
